@@ -20,6 +20,10 @@ jobs:
         run: |
           python3 --version
 
+      - name: Disable symlinks
+        run: |
+          git config --global core.symlinks false
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
