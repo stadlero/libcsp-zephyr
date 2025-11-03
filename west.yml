@@ -12,6 +12,6 @@ manifest:
           - cmsis_6
 
     - name: libcsp
-      url: https://github.com/libcsp/libcsp
-      revision: develop
+      url: https://github.com/stadlero/libcsp
+      revision: zephyr-module-replace-symlink
       path: modules/lib/libcsp
