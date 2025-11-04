@@ -13,5 +13,5 @@ manifest:
 
     - name: libcsp
       url: https://github.com/stadlero/libcsp
-      revision: zephyr-module-replace-symlink
+      revision: zephyr-module-replace-symlink-test
       path: modules/lib/libcsp
